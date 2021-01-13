@@ -6,14 +6,17 @@ import 'src/styles/index.scss';
 import App from 'src/components/App';
 import reportWebVitals from './reportWebVitals';
 import store from 'src/store';
+// import { RecoilRoot } from 'recoil'
 
 ReactDOM.render(
   <React.StrictMode>
+    {/* <RecoilRoot> */}
     <Provider store={store}>
       <Router>
         <App />
       </Router>
     </Provider>
+    {/* </RecoilRoot> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,47 @@
+{
+  "id": "GB-1610108381567",
+  "truckLicensePlate": "test",
+  "trailerLicensePlate": "test",
+  "truckOrigin": "GB",
+  "state": "Processing",
+  "emitter": "lastName-firstName",
+  "MRNS3Path": null,
+  "packingListS3Path": "30-test/test-GB-1610108381566/packing_list.csv",
+  "errorMessage": null,
+  "createdAt": "2021-01-08T12:19:41.000Z",
+  "Company_Id": 30,
+  "CustomsDeclarationDocuments": [
+    {
+      "id": 9,
+      "name": "1610014381812.jpg",
+      "s3Path": "30-test/test-GB-1610108381566/1610108381542.jpg",
+      "size": 1043716,
+      "emitter": "lastName-firstName",
+      "createdAt": "2021-01-08T12:19:42.000Z",
+      "CustomsDeclaration_Id": "GB-1610108381567"
+    }
+  ],
+  "CustomsDeclarationChats": [
+    {
+      "id": 2,
+      "emitter": "lastName-firstName",
+      "message": "can you provide us with the invoice please",
+      "createdAt": "2021-01-08T13:12:42.000Z",
+      "CustomsDeclaration_Id": "GB-1610108381567"
+    },
+    {
+      "id": 3,
+      "emitter": "system",
+      "message": "lastName-firstName Nicolas Vabre added the file invoice.pdf",
+      "createdAt": "2021-01-08T13:15:42.000Z",
+      "CustomsDeclaration_Id": "GB-1610108381567"
+    },
+    {
+      "id": 4,
+      "emitter": "lastName-firstName",
+      "message": "Thanks!",
+      "createdAt": "2021-01-08T13:18:42.000Z",
+      "CustomsDeclaration_Id": "GB-1610108381567"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+.detailDeclaration {
+  span {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: indigo;
+  }
+  a {
+    padding: 0.3rem 0.5rem;
+    background-color: #519c08;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 1rem;
+    color: white;
+    display: inline-block;
+  }
+  button {
+    padding: 0.4em 0.5rem;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  &__card {
+    background-color: floralwhite;
+    border: red solid 1px;
+    border-radius: 5px;
+    color: black;
+    margin: 10rem;
+    &__chat {
+      background-color: #350c0c;
+      display: flex-root;
+      justify-content: space-around;
+      text-align: left;
+      color: white;
+      border-radius: 10px;
+      padding: .5rem;
+      width: 80%;
+      margin:2rem auto;
+      &__content {
+        display: flex;
+        justify-content: center;
+      }
+    }
+    &__form {
+      margin: 1rem;
+      input {
+        height: 1.6rem;
+        border-radius: 5px;
+        
+      }
+    }
+  }
+}

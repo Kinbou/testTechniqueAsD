@@ -1,0 +1,18 @@
+[
+  {
+  "id": "GB-1610108381566",
+  "date": "2021-01-08T12:19:41.000Z",
+  "trailerLicensePlate": "AA123AA",
+  "truckLicensePlate": "AB123AB",
+  "emitter": "Nicolas Vabre",
+  "state": "Processing"
+  },
+  {
+    "id": "GB-1610108381567",
+    "date": "2021-05-08T12:19:42.000Z",
+    "trailerLicensePlate": "AA123AM",
+    "truckLicensePlate": "AB123AH",
+    "emitter": "Jennifer Bouquin",
+    "state": "Processing"
+  }
+]
